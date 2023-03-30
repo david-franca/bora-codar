@@ -1,38 +1,102 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# boraCodar
 
-## Getting Started
+Repositório dos projetos do desafio Bora Codar da Rocketseat
 
-First, run the development server:
+[Acesse os desafios clicando aqui](https://lvdamaceno.github.io/boracodar/)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+<table>
+    <thead>
+      <tr>
+        <th>#</th>
+        <th>name</th>
+        <th>dates</th>
+        <th>code</th>
+        <th>live</th>
+      </tr>
+    </thead>
+    <tbody>
+    <!-- <tr>
+        <td>12</td>
+        <td>Kanban</td>
+        <td>23/03/2023</td>
+        <td><a href="desafio12-kanban">🔗</a></td>
+        <td><a href="https://lvdamaceno.github.io/boracodar/desafio12-kanban/index.html">🌎</a></td>
+      </tr>
+    <tr>
+        <td>11</td>
+        <td>Login</td>
+        <td>16/03/2023</td>
+        <td><a href="desafio11-login">🔗</a></td>
+        <td><a href="https://lvdamaceno.github.io/boracodar/desafio11-login/index.html">🌎</a></td>
+      </tr>
+    <tr>
+        <td>10</td>
+        <td>Weather Dashboard</td>
+        <td>14/03/2023</td>
+        <td><a href="desafio10-clima">🔗</a></td>
+        <td><a href="https://lvdamaceno.github.io/boracodar/desafio10-clima/index.html">🌎</a></td>
+      </tr>
+    <tr>
+        <td>09</td>
+        <td>A Currency Converter</td>
+        <td>06/03/2023</td>
+        <td><a href="desafio09-currency-converter">🔗</a></td>
+        <td><a href="https://lvdamaceno.github.io/boracodar/desafio09-currency-converter/index.html">🌎</a></td>
+      </tr>
+      <tr>
+        <td>08</td>
+        <td>A Dashboard</td>
+        <td>28/02/2023</td>
+        <td><a href="desafio08-dashboard">🔗</a></td>
+        <td><a href="https://lvdamaceno.github.io/boracodar/desafio08-dashboard/index.html">🌎</a></td>
+      </tr>
+      <tr>
+        <td>07</td>
+        <td>Find a street carnival party</td>
+        <td>22/02/2023</td>
+        <td><a href="desafio07-bloco-carnaval">🔗</a></td>
+        <td><a href="https://lvdamaceno.github.io/boracodar/desafio07-bloco-carnaval/index.html">🌎</a></td>
+      </tr>
+      <tr>
+        <td>06</td>
+        <td>A Boarding Ticket</td>
+        <td>10/02/2023</td>
+        <td><a href="desafio06-cartao-embarque">🔗</a></td>
+        <td><a href="https://lvdamaceno.github.io/boracodar/desafio06-cartao-embarque/index.html">🌎</a></td>
+      </tr>
+      <tr>
+        <td>05</td>
+        <td>A Calculator</td>
+        <td>27/01/2023</td>
+        <td><a href="desafio05-uma-calculadora">🔗</a></td>
+        <td><a href="https://lvdamaceno.github.io/boracodar/desafio05-uma-calculadora/index.html">🌎</a></td>
+      </tr>
+      <tr>
+        <td>04</td>
+        <td>A Chat</td>
+        <td>27/01/2023</td>
+        <td><a href="desafio04-um-chat">🔗</a></td>
+        <td><a href="https://lvdamaceno.github.io/boracodar/desafio04-um-chat/index.html">🌎</a></td>
+      </tr>
+      <tr>
+        <td>03</td>
+        <td>Buttons</td>
+        <td>24/01/2023</td>
+        <td><a href="desafio03-botoes-cursores">🔗</a></td>
+        <td><a href="https://lvdamaceno.github.io/boracodar/desafio03-botoes-cursores/index.html">🌎</a></td>
+      </tr> -->
+      <tr>
+        <td>02</td>
+        <td>Product Cards</td>
+        <td>29/03/2023</td>
+        <td><a href="src/pages/challenges/2">🔗</a></td>
+        <td><a href="">🌎</a></td>
+      </tr>
+      <tr>
+        <td>01</td>
+        <td>Music Player</td>
+        <td>11/01/2023</td>
+        <td><a href="desafio01-player-de-musica">🔗</a></td>
+        <td><a href="https://lvdamaceno.github.io/boracodar/desafio01-player-de-musica/index.html">🌎</a></td>
+      </tr>
+    </tbody>
