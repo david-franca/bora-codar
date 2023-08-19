@@ -15,7 +15,7 @@ import {
     Text,
     VStack
 } from "@chakra-ui/react";
-import {DeezerAlbum} from "@/models/deezer.model";
+
 import {FaBackward, FaForward, FaPlay} from "react-icons/fa";
 
 interface ProgressLabelProps {
