@@ -98,7 +98,7 @@ const MusicCard = ({dir, withProgress}: MusicCardProps) => {
     )
 }
 
-const First: NextPage<{ album: DeezerAlbum }> = ({album}) => {
+const First: NextPage = () => {
     return (
         <Center minH="100vh" bgColor="#0F0D13" color="purple.800">
             <SimpleGrid columns={2} spacing={4}>
